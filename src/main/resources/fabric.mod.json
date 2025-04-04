@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "fletchingtable",
+  "version": "${version}",
+  "name": "FletchingTable",
+  "description": "kill mob to dupe",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/fletchingtable/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.sam.fletchingtable.client.FletchingTableClient"
+    ],
+    "main": [
+      "org.sam.fletchingtable.FletchingTable"
+    ]
+  },
+  "mixins": [
+    "fletchingtable.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
