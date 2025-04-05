@@ -1,5 +1,6 @@
 # TridentDuper
 1.21.4 mod (patched on paper servers) can dupe tridents
+you can use ViaFabricPlus to join older servers and dupe there
 
 completely charge back a trident
 press the V key (changeable in settings). This will throw the trident and also move the trident in your 2x2 crafting grid in inventory
